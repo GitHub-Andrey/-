@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Tahoma';
+    src: url (../fonts/TahomaRegular.ttf);
+}
+body{
+    font-family: 'Tahoma';
+}
