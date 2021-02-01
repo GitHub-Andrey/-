@@ -2,6 +2,9 @@
     font-family: 'Tahoma';
     src: url (../fonts/TahomaRegular.ttf);
 }
+body {
+    background: url(../img/background.png);
+}
 .CalR{
     font-family: Tahoma;
     font-size: 18px;
