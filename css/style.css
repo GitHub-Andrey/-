@@ -17,6 +17,7 @@
 h1,h2 {
     font-family: Tahoma;
     font-weight: bold;
+    line-height: 72px;
     color: #141419;
 }
 h2 {
@@ -25,6 +26,7 @@ h2 {
 .CalR24 {
     font-family: Tahoma;
     font-size: 24px;
+    line-height: 36px;
     color: #616161;
 }
 .orange {
@@ -37,6 +39,7 @@ h2 {
     font-family: Tahoma;
     font-weight: bold;
     font-size: 18px;
+    line-height: 25px;
     color: #616161;
     width: 194px;
     height: 56px;
