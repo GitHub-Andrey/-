@@ -5,10 +5,18 @@
 body {
     background: url(../img/background.png);
 }
+.content {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
 .CalR{
     font-family: Tahoma;
     font-size: 18px;
     color: #616161;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .calbol {
     font-family: Tahoma;
@@ -73,6 +81,4 @@ a {
     text-decoration: none;
     color: #616161;
 }
-ul {
-    list-style-type: none;
-}
+
