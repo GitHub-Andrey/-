@@ -1,32 +1,59 @@
 @font-face {
-    font-family: 'Tahoma';
-    src: url (../fonts/TahomaRegular.ttf);
+  font-family: 'Calibri';
+  src: url(../fonts/Calibri.ttf);
 }
-body {
-    background: url(../img/background.png);
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: url(../fonts/Calibri-Bold.ttf);
 }
-.content {
+.logo {
+    float: left;
+    margin-right: 37px;
+  }
+.nav {
+    font-family: Calibri;
+    font-size: 18px;
+    color: #616161;
+}  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block; /*способ разместить элементы в строку*/
+    margin-left: 77px;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 15px;
+    margin-top: 0px;
+    line-height: 60px;
+}
+.tel {
+      font-family: Calibri-Bold;
+      font-size: 18px;
+      color: #141419;
+}
+a {
+      text-decoration: none;
+}
+.center {
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
 }
-.CalR{
-    font-family: Tahoma;
-    font-size: 18px;
-    color: #616161;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.calbol {
-    font-family: Tahoma;
-    font-weight: bold;
-    font-size: 18px;
-    color: #141419;
-    text-decoration: none;
-}
-h1,h2 {
-    font-family: Tahoma;
+  body {
+    background: url(../img/background.png);
+  }
+  h1,h2 {
+    font-family: Calibri-Bold;
     font-weight: bold;
     line-height: 72px;
     color: #141419;
@@ -35,50 +62,44 @@ h2 {
     font-size: 32px;
 }
 .CalR24 {
-    font-family: Tahoma;
-    font-size: 24px;
-    line-height: 36px;
-    color: #616161;
+  font-family: Calibri;
+  font-size: 24px;
+  line-height: 36px;
+  color: #616161;
 }
 .orange {
-    font-family: Tahoma;
-    font-weight: bold;
-    font-size: 24px;
-    color: #fb973b;
+  font-family: Calibri-Bold;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fb973b;
 }
 .font {
-    font-family: Tahoma;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    color: #616161;
-    width: 194px;
-    height: 56px;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #616161;
+  width: 194px;
+  height: 56px;
 }
 button {
-    background: #fb973b;    
-    border: none;
-    padding: 1rem 1.5rem;
-    width: 194px;
-    height: 56px;
+  background: #fb973b;    
+  border: none;
+  padding: 1rem 1.5rem;
+  width: 194px;
+  height: 56px;
 }
-
 .fontb {
-    color: #ffffff;
-    font-family: Tahoma;
-    font-weight: bold;
-    font-size: 18px;
+  color: #ffffff;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 18px;
 }
 p {
-    font-family: Tahoma;
-    font-size: 18px;
-    color: #141419;
+  font-family: Calibri;
+  font-size: 18px;
+  color: #141419;
 }
 .number {
-    color: #fcba7c;
+  color: #fcba7c;
 }
-a {
-    text-decoration: none;
-    color: #616161;
-}
-
