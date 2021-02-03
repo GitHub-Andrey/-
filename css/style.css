@@ -103,3 +103,7 @@ p {
 .number {
   color: #fcba7c;
 }
+.main-double {
+  display: flex;  
+  justify-content: space-around;
+}
