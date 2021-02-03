@@ -54,6 +54,7 @@ a {
   }
   h1,h2 {
     font-family: Calibri-Bold;
+    font-size: 60px;
     font-weight: bold;
     line-height: 72px;
     color: #141419;
@@ -103,7 +104,12 @@ p {
 .number {
   color: #fcba7c;
 }
-.main-double {
-  display: flex;  
-  justify-content: space-around;
+.double {
+    position: absolute;
+    right: 0;
+    top: 120px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
 }
