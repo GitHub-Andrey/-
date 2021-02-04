@@ -11,65 +11,65 @@
   src: url(../fonts/sf-ui-display-medium.ttf);  
 }
 .logo {
-    float: left;
-    margin-right: 37px;
+  float: left;
+   margin-right: 37px;
   }
 .nav {
-    font-family: Calibri;
-    font-size: 18px;
-    color: #616161;
+  font-family: Calibri;
+  font-size: 18px;
+  color: #616161;
 }  
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 nav li {
-    display: inline-block; /*способ разместить элементы в строку*/
-    margin-left: 77px;
+  display: inline-block; /*способ разместить элементы в строку*/
+  margin-left: 77px;
 }
 .container:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 .container {
-    width: 100%;
-    max-width: 1250px;
-    padding: 15px;
-    margin-top: 0px;
-    line-height: 60px;
+  width: 100%;
+  max-width: 1250px;
+  padding: 15px;
+  margin-top: 0px;
+  line-height: 60px;
 }
 .tel {
-      font-family: Calibri-Bold;
-      font-size: 18px;
-      color: #141419;
+  font-family: Calibri-Bold;
+  font-size: 18px;
+  color: #141419;
 }
 a {
-      text-decoration: none;
+  text-decoration: none;
 }
 .center {
-    width: 100%;
-    max-width: 1250px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
 }
-  body {
-    background: url(../img/background.png);
+body {
+  background: url(../img/background.png);
   }
-  h1,h2 {
-    font-family: Calibri-Bold;
-    font-size: 60px;
-    font-weight: bold;
-    line-height: 72px;
-    color: #141419;
-}
+h1,h2 {
+  font-family: Calibri-Bold;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 72px;
+  color: #141419;
+  }
 h1 {
     margin-top: 103px;
 }
-h2 {
-    font-size: 60px;
-    text-align: center;
-    margin-top: 225px;
+.h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 225px;
 }
 .box-1 {
   font-family: Calibri;
@@ -78,11 +78,11 @@ h2 {
   color: #616161;
 }
 .box-2 {
-    font-family: Calibri;
-    font-size: 24px;
-    line-height: 36px;
-    color: #616161;
-    text-align: center;
+  font-family: Calibri;
+  font-size: 24px;
+  line-height: 36px;
+  color: #616161;
+   text-align: center;
   }
 .orange {
   font-family: Calibri-Bold;
@@ -99,7 +99,7 @@ h2 {
   width: 194px;
   height: 56px;
 }
-  input[placeholder] {
+input[placeholder] {
   text-align: center;
 }
 button {
@@ -124,18 +124,34 @@ p {
   color: #fcba7c;
 }
 .double {
-    position: absolute;
-    right: 0;
-    top: 121px;
+  position: absolute;
+  right: 0;
+  top: 121px;
 }
 .bottom {
-    display: flex;
-    justify-content: center;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 .box-3 {
-    font-family: Calibri;
-    font-size: 24px;
-    line-height: 36px;
-    color: #616161;
+  font-family: Calibri;
+  font-size: 24px;
+  line-height: 36px;
+  color: #616161;
   }
+table {
+  width: 1250px;
+}
+.ostankino {
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
+.mirat {
+  padding-bottom: 70px;
+}
+.agro {
+  padding-left: 70px;
+}
+.komos {
+  padding-left: 618px;
+}
