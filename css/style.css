@@ -6,6 +6,10 @@
   font-family: 'Calibri-Bold';
   src: url(../fonts/Calibri-Bold.ttf);
 }
+@font-face {
+  font-family: 'SF-UI-Display-Medium';  
+  src: url(../fonts/sf-ui-display-medium.ttf);  
+}
 .logo {
     float: left;
     margin-right: 37px;
@@ -63,14 +67,23 @@ h1 {
     margin-top: 103px;
 }
 h2 {
-    font-size: 32px;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 225px;
 }
-.CalR24 {
+.box-1 {
   font-family: Calibri;
   font-size: 24px;
   line-height: 36px;
   color: #616161;
 }
+.box-2 {
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+    text-align: center;
+  }
 .orange {
   font-family: Calibri-Bold;
   font-weight: bold;
@@ -78,13 +91,16 @@ h2 {
   color: #fb973b;
 }
 .font {
-  font-family: Calibri;
+  font-family: SF-UI-Display-Medium;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
   color: #616161;
   width: 194px;
   height: 56px;
+}
+  input[placeholder] {
+  text-align: center;
 }
 button {
   background: #fb973b;    
@@ -95,7 +111,7 @@ button {
 }
 .fontb {
   color: #ffffff;
-  font-family: Calibri;
+  font-family: SF-UI-Display-Medium;
   font-weight: bold;
   font-size: 18px;
 }
@@ -112,7 +128,14 @@ p {
     right: 0;
     top: 121px;
 }
-.main {
+.bottom {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
+.box-3 {
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+  }
