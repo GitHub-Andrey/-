@@ -4,72 +4,67 @@
 }
 @font-face {
   font-family: 'Calibri-Bold';
-  src: url(../fonts/Calibri-Bold.ttf);
+   src: url(../fonts/Calibri-Bold.ttf);
 }
 @font-face {
   font-family: 'SF-UI-Display-Medium';  
   src: url(../fonts/sf-ui-display-medium.ttf);  
 }
-.logo {
-  float: left;
-   margin-right: 37px;
-  }
-.nav {
-  font-family: Calibri;
-  font-size: 18px;
-  color: #616161;
-}  
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav li {
-  display: inline-block; /*способ разместить элементы в строку*/
-  margin-left: 77px;
-}
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.container {
-  width: 100%;
-  max-width: 1250px;
-  padding: 15px;
-  margin-top: 0px;
-  line-height: 60px;
-}
-.tel {
-  font-family: Calibri-Bold;
-  font-size: 18px;
-  color: #141419;
-}
-a {
-  text-decoration: none;
-}
-.center {
+body {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+	background: url(../img/background.png);	
 }
-body {
-  background: url(../img/background.png);
-  }
+.logo {
+	position: relative;
+	right: 26px;
+}
+.list {
+	display: flex;
+}
+ul > li:nth-child(6) {
+	margin-left: auto;
+} 
+li {
+	list-style-type: none;
+	margin-right: 70px;
+	font-family: Calibri;
+	font-size: 18px;
+  line-height: 82px;
+}
+.tel {
+	font-family: Calibri-Bold;
+  font-size: 18px;
+	color: #141419;
+	position: relative;
+	left: 69px;
+}
+a {
+	text-decoration: none;
+	color: #616161;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
 h1,h2 {
   font-family: Calibri-Bold;
-  font-size: 60px;
+  font-size: 49px;
   font-weight: bold;
   line-height: 72px;
   color: #141419;
-  }
+}
 h1 {
-    margin-top: 103px;
+  margin-top: 103px;
 }
 .h2 {
-  font-size: 60px;
   text-align: center;
-  margin-top: 225px;
 }
 .box-1 {
   font-family: Calibri;
@@ -77,13 +72,6 @@ h1 {
   line-height: 36px;
   color: #616161;
 }
-.box-2 {
-  font-family: Calibri;
-  font-size: 24px;
-  line-height: 36px;
-  color: #616161;
-   text-align: center;
-  }
 .orange {
   font-family: Calibri-Bold;
   font-weight: bold;
@@ -115,18 +103,42 @@ button {
   font-weight: bold;
   font-size: 18px;
 }
+.box-2 {
+  font-family: Calibri;
+  font-size: 24px;
+  line-height: 36px;
+  color: #616161;
+  text-align: center;
+}
 p {
   font-family: Calibri;
   font-size: 18px;
   color: #141419;
 }
-.number {
-  color: #fcba7c;
+.tab {
+	display: inline;
+	position: relative;
+	left: 153px;
 }
-.double {
-  position: absolute;
-  right: 0;
-  top: 121px;
+.num1 {
+	height: 20px;
+	width: 20px;
+	border: 1px solid #fb973b;
+	border-radius: 50%;
+	text-align: center;
+	color: #fb973b;    
+}
+.num2 {
+	text-align: center;
+	color: #fb973b;
+	position: relative;
+	bottom: 5px;
+}
+.num3 {
+	text-align: center;
+	color: #fb973b;
+	position: relative;
+	top: 3px;
 }
 .bottom {
   display: flex;
@@ -138,7 +150,7 @@ p {
   font-size: 24px;
   line-height: 36px;
   color: #616161;
-  }
+}
 table {
   width: 1250px;
 }
@@ -147,7 +159,7 @@ table {
   padding-bottom: 60px;
 }
 .mirat {
-  padding-bottom: 70px;
+    padding-bottom: 70px;
 }
 .agro {
   padding-left: 70px;
