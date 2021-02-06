@@ -151,19 +151,18 @@ p {
   line-height: 36px;
   color: #616161;
 }
-table {
-  width: 1250px;
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
 }
-.ostankino {
-  padding-left: 100px;
-  padding-bottom: 60px;
+.partn {
+  position: relative;
+  top: 40px;
 }
-.mirat {
-    padding-bottom: 70px;
+footer td {
+  padding: 0 24px 72px 0;
 }
-.agro {
-  padding-left: 70px;
-}
-.komos {
-  padding-left: 618px;
-}
+/*footer, main, header {
+  background-color: cadetblue;
+}*/
