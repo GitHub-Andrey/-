@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Calibri-Bold';
+     src: url(../fonts/Calibri-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'SF-UI-Display-Medium';  
+    src: url(../fonts/sf-ui-display-medium.ttf);  
+  }
+  body {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    background: url(../img/background.png);	
+    background-size: cover;
+  }
+  .content {
+    background-color: chartreuse;
+  }
+  header {
+    display: flex;
+}
+ul {
+    display: flex;
+}
+img, li {
+  width: 1fr;
+}

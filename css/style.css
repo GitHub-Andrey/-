@@ -14,7 +14,8 @@ body {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
-	background: url(../img/background.png);	
+  background: url(../img/background.png);	
+  background-size: cover;
 }
 .logo {
 	position: relative;
@@ -55,7 +56,7 @@ header {
 }
 h1,h2 {
   font-family: Calibri-Bold;
-  font-size: 49px;
+  font-size: 53px;
   font-weight: bold;
   line-height: 72px;
   color: #141419;
@@ -86,6 +87,7 @@ h1 {
   color: #616161;
   width: 194px;
   height: 56px;
+  
 }
 input[placeholder] {
   text-align: center;
@@ -110,15 +112,32 @@ button {
   color: #616161;
   text-align: center;
 }
-p {
+.p-1, .p-2, .p-3 {
   font-family: Calibri;
   font-size: 18px;
-  color: #141419;
+  color: #616161;
+  line-height: 25px;
 }
-.tab {
-	display: inline;
+.tab-1 {	
 	position: relative;
-	left: 153px;
+  top: 13px;
+	left: 193px;
+}
+.tab-2 { 
+  position: relative;
+  bottom: 21px;
+  left: 193px;
+}
+.tab-3 {
+  position: relative;
+  left: 193px;
+}
+.image {
+  margin-right: 44px;
+}
+.bottom {
+  display: flex;
+  height: 100%; 
 }
 .num1 {
 	height: 20px;
@@ -132,7 +151,7 @@ p {
 	text-align: center;
 	color: #fb973b;
 	position: relative;
-	bottom: 5px;
+	bottom: 6px;
 }
 .num3 {
 	text-align: center;
@@ -140,29 +159,56 @@ p {
 	position: relative;
 	top: 3px;
 }
-.bottom {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-}
-.box-3 {
+.bot-2 {
   font-family: Calibri;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 18px;
   color: #616161;
+  line-height: 25px;
 }
-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 115px;
-}
-.partn {
-  position: relative;
-  top: 40px;
-}
-footer td {
-  padding: 0 24px 72px 0;
-}
-/*footer, main, header {
-  background-color: cadetblue;
-}*/
+  .foot {
+    display: flex;
+    margin-top: 157px;
+  }
+  .box-3 {
+    font-family: Calibri;
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+  }
+  .f1 {
+    width: 555px;
+  }
+  .f2 {
+    width: 33.6%;
+  }
+  .f3 {
+    text-align: right;
+  }
+  .f1-1{
+    margin-top: 0;
+  }
+  .f1-2 {
+    position: relative;
+    bottom: 41px;
+  }
+  .f2-1 {
+    margin-top: 5px;
+    margin-bottom: 69px;
+  }
+  .f2-2 {
+    margin-bottom: 65px;
+    margin-right: 7px;
+  }
+  .f3-1 {
+    margin-bottom: 75px;
+  }
+  .f3-2 {
+    margin-bottom: 91px;
+  }
+  .par {
+    margin-top: 0;
+    font-family: Calibri-Bold;
+    font-size: 53px;
+    line-height: 72px;
+    font-weight: 700;
+  }   
